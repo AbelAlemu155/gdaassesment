@@ -14,6 +14,8 @@ For the model choice, I recommend using randomforest classifier with number of t
 
 I used a stratified 5 fold cross validation for evlauation. This allows for ensuring varied distribution of data in folds used for validation and training. 
 
-Lastly, the visualization for the sentinel image shows properties for the categories showing pattern of water body concentration in the nothern part of the plot while other bodies are distributed in varied ways.
+Lastly, the visualization for the sentinel image shows properties for the categories showing a pattern of water body concentration in the nothern part of the plot while other bodies are distributed in varied ways. This RGB Sentinel image is exported to a geotiff file. 
+
+I also visualized the continuous categorical information and visualized it on top of the rgb raster data. This continuous visualisation shows that the random forest classifier is closer to the ground truth point visualisation from the vector data. 
 
 For the SQL question use sql_test.ipynb file that shows the queries and output of the commands. the output of the final queries can be found on the account_with_orders.csv file.
